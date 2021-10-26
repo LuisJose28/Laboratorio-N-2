@@ -85,9 +85,9 @@ int main()
         }
         printf("\n¿Desea realizar otro cambio de moneda?\n");
         printf("Presione 1 para SI\nPresione 2 para NO\nOpcion:");
-        scanf("%i", &variable);
+        scanf("%i", &bucle);
 
-    } while (variable == 1);
+    } while (bucle == 1);
     
 
 return 0;
